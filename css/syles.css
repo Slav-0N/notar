@@ -1,0 +1,97 @@
+h1,h2,h3,h4,h5,h6,p {
+  margin: 0
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none
+}
+
+a {
+  color: currentColor;
+  text-decoration: none
+}
+
+button {
+  cursor: pointer
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto
+}
+
+body {
+  font-family: Epilogue,sans-serif;
+  color: #141414;
+  background-color: #fff
+}
+
+.list {
+  list-style: none
+}
+
+.link {
+  text-decoration: none
+}
+
+.container {
+  max-width: 375px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.project-margin {
+  margin-bottom: 80px
+}
+
+.header {
+  padding-top: 50px;
+  background-color: #03034f;
+  color: #ffffff;
+  font-size: 10px;
+  text-align: center;
+}
+
+.header-trident {
+  position: absolute;
+  top: -1%;
+  left: 43%;
+  fill: yellow;
+
+}
+
+.okrug {
+  border-bottom: 1px solid #FFFFFF;
+  margin-bottom: 5px;
+}
+
+
+
+@media screen and (min-width: 768px) {
+  .container {
+      max-width:768px;
+      padding-left: 32px;
+      padding-right: 32px
+  }
+
+  .project-margin {
+      margin-bottom: 128px
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+      max-width:1280px;
+      padding-left: 52px;
+      padding-right: 52px
+  }
+
+  .project-margin {
+      margin-bottom: 160px
+  }
+}
