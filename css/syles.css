@@ -50,19 +50,17 @@ body {
 }
 
 .header {
-  padding-top: 50px;
+  
   background-color: #03034f;
   color: #ffffff;
   font-size: 10px;
   text-align: center;
+  padding-top: 20px;
 }
 
-.header-trident {
-  position: absolute;
-  top: -1%;
-  left: 43%;
-  fill: yellow;
-
+.tryzub {
+  margin: 0 auto;
+  margin-bottom: 4px;
 }
 
 .okrug {
