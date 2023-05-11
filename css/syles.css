@@ -26,13 +26,16 @@ img {
 body {
   font-family: Epilogue,sans-serif;
   color: #141414;
-  background-color: #fff
+  background-color: #ffffff;
   margin: 0;
+
 }
 
 .list {
   list-style: none
 }
+
+
 
 .link {
   text-decoration: none
@@ -68,6 +71,29 @@ body {
   border-bottom: 1px solid #FFFFFF;
   margin-bottom: 5px;
 }
+
+.attorney {
+  padding-top: 12px;
+
+}
+
+.attorney-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.attorney-title {
+  text-align: center;
+}
+
+
+
+
+
+
+
+
 
 
 
